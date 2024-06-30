@@ -24,7 +24,7 @@ After the execution of the undertaking, we can deposit, withdraw eth. Transfer t
 ```
 function transferOwnership(address payable newOwner) public only_Admin {
         require(newOwner != address(0), "New owner is the zero address");
-        owner = newOwner;
+       administrator = newAdmin;
     } 
     function freezeContract() public only_Admin {
         frozen = true;
