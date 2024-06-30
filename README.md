@@ -1,9 +1,10 @@
 # Contract-management
 # Function Frontend
-A Interface to interact with an ATM-like smart contract on the Ethereum blockchain. Users can deposit and withdraw funds, transfer ownership, and manage the contract state.
+A Interface to interact with an ATM-like smart contract on the Ethereum network. Users can deposit and withdraw funds, transfer ownership, and control the contract status.
 
 ## Description
-In this project, we have integrated smart contract Assessment  with the front end. In the smart contract we created various functions like Deposit, Withdraw, transfer ownership,freezeContract, and unfreezeContract. The contract allows users to deposit and withdraw Ether, check their balance, transfer contract ownership, and freeze/unfreeze the contract. 
+In this project, we have linked smart contract Assessment with the front end. In the smart contract we implemented many operations like Deposit, Withdraw, transfer ownership,freezeContract, and unfreezeContract. The contract allows users to deposit and withdraw Ether, check their balance, transfer contract ownership, and freeze/unfreeze the contract. 
+
 ## Getting Started
 ### Executing program
 After cloning the github, you will want to do the following to get the code operating on your computer.
