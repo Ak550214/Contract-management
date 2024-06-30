@@ -22,14 +22,14 @@ After cloning the github, you will want to do the following to get the code oper
 
 After the execution of the undertaking, we can deposit, withdraw eth. Transfer the proprietorship to other owner and lock and unfreeze the contract.
 ```
-function transferOwnership(address payable newOwner) public onlyOwner {
+function transferOwnership(address payable newOwner) public only_Admin {
         require(newOwner != address(0), "New owner is the zero address");
         owner = newOwner;
     } 
-    function freezeContract() public onlyOwner {
+    function freezeContract() public only_Admin {
         frozen = true;
     }
-    function unfreezeContract() public onlyOwner {
+    function unfreezeContract() public only_Admin {
         frozen = false;
     }
 ```
